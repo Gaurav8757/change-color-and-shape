@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  position: absolute;
+  left: 45%;
+  top: 15%;
+  align-content: space-evenly;
+}
+.outer_div {
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  border-radius: 50%;
+  /* align-items: center; */
+}
+.outer_div.dark-mode {
+  background-color: green;
+}
+.inner_div {
+  position: absolute;
+  left: 49px;
+  top: 51px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  align-content: space-evenly;
+}
+.inner_div.dark-white {
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+#first_button {
+  font-family: monospace;
+  font-size: 17px;
+  display: block;
+  padding: 10px 40px 10px;
+  margin-top: 28%;
+  margin-bottom: 15%;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+#first_button:hover {
+  box-shadow: 0px 0px 20px 1px grey;
+  transition: 0.1s ease-in-out;
+}
+#second_button {
+  font-family: monospace;
+  font-size: 17px;
+
+  padding: 10px 40px 10px;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+#second_button:hover {
+  box-shadow: 0px 0px 20px 1px grey;
+  transition: 0.1s ease-in-out;
+}
